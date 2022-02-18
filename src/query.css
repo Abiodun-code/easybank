@@ -1,0 +1,269 @@
+@media screen and (max-width: 600px) {
+  .nav-links {
+    display: none;
+  }
+
+  .navbar img {
+    padding-right: 8rem;
+  }
+
+  .nav-links-mobile ul {
+    position: absolute;
+    display: block;
+    background-color: white;
+    left: 1rem;
+    top: 73px;
+    transition: all 0.5s ease-out;
+    width: 95%;
+    border-radius: 1rem;
+  }
+
+  .home,
+  .about,
+  .blog,
+  .contact,
+  .careers {
+    color: black;
+    text-align: center;
+    padding: 3rem;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+
+  .home:hover,
+  .about:hover,
+  .contact:hover,
+  .blog:hover,
+  .careers:hover {
+    border-bottom: none;
+  }
+
+  .invite {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    font-size: 1.5rem;
+    color: black;
+    background-color: white;
+    border: none;
+    outline: none;
+    top: 1rem;
+    right: 2rem;
+  }
+
+  /* Header Styling */
+  .header {
+    height: 150vh;
+  }
+
+  .header .header-shift {
+    width: 100%;
+    display: block;
+  }
+
+  .header-shift .left,
+  .right {
+    display: none;
+  }
+
+  .header-shift .left-mobile {
+    display: block;
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-image: url(/public/images/bg-intro-mobile.svg);
+  }
+
+  .left-mobile img {
+    padding-left: 3rem;
+    width: 100%;
+  }
+
+  .header-shift .right-mobile {
+    display: block;
+    padding: 15rem 0 0 3rem;
+    width: 100%;
+    height: 90vh;
+  }
+
+  .header-shift .right-mobile h2 {
+    font-size: 3rem;
+    width: 100%;
+    font-weight: 300;
+  }
+
+  .header-shift .right-mobile p {
+    padding-top: 2rem;
+    font-size: 1rem;
+    width: 90%;
+    font-weight: 300;
+  }
+
+  .header-shift .right-mobile .invite {
+    color: black;
+    font-size: 1.2rem;
+    padding-top: 2rem;
+    width: 100vh;
+    height: 5vh;
+  }
+  /* Header Styling End */
+
+  /* Body Styling */
+  .body {
+    width: 100%;
+    height: 250vh;
+    padding: 6.5rem 3rem 0 3rem;
+  }
+
+  .body h2 {
+    padding-left: 4rem;
+    font-size: 2.5rem;
+    width: 100%;
+  }
+
+  .body p {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  .body .card {
+    padding-top: 5rem;
+    display: block;
+    width: 100%;
+  }
+
+  .body .card .card-body {
+    margin-right: 1rem;
+    width: 100%;
+    height: 45vh;
+  }
+
+  .card-body img {
+    padding-left: 9rem;
+  }
+
+  .card-body h3 {
+    padding: 2rem 0 0 4rem;
+    font-size: 1.8rem;
+    width: 100%;
+    font-weight: 300;
+  }
+  .card-body .h3 {
+    padding: 0rem 0 0 7rem;
+  }
+
+  .card-body p {
+    padding-top: 1rem;
+    font-size: 1.1rem;
+    width: 100%;
+    font-weight: 300;
+  }
+  /* Body Styling End */
+
+  /* Article Styling */
+  .article {
+    width: 100%;
+    height: 370vh;
+    padding: 6.5rem 3rem 0 3rem;
+  }
+
+  .article h2 {
+    padding: 0 2rem 0 3rem;
+    font-size: 2.2rem;
+    width: 100%;
+    font-weight: 500;
+  }
+
+  .article .card {
+    display: block;
+  }
+
+  .article .card-bodys {
+    background-color: white;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 80vh;
+    border-radius: 0.5rem;
+  }
+
+  .card-bodys img {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .card-bodys .small {
+    width: 100%;
+    padding: 4rem 0 0 2rem;
+  }
+
+  .card-bodys h3 {
+    padding: 1rem 2rem 0 2rem;
+    font-size: 1.2rem;
+    width: 100%;
+    font-weight: 450;
+  }
+
+  .card-bodys p {
+    padding: 1rem 2rem 0 2rem;
+    font-size: 0.9rem;
+    width: 100%;
+    font-weight: 300;
+  }
+  /* Article Styling End */
+
+  /* Footer Styling */
+  .footer {
+    width: 100%;
+    height: 60vh;
+    background-color: darkblue;
+    padding: 3rem 3rem 0 5rem;
+  }
+
+  .footer .shift {
+    display: block;
+    width: 100%;
+  }
+
+  .footer .img {
+    width: 15rem;
+    padding-left: 3rem;
+  }
+
+  .footer .left-image {
+    width: 20rem;
+    padding: 2rem 0 0 3rem;
+  }
+  .footer .footer-image {
+    padding-right: 1rem;
+  }
+
+  .footer .center {
+    width: 100%;
+    height: 18vh;
+    display: block;
+    justify-content: space-around;
+    padding: 2rem 1rem 0 5rem;
+    color: white;
+  }
+
+  .footer .right {
+    width: 100%;
+    margin-left: 1rem;
+    display: block;
+  }
+
+  .footer .right .invite {
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  .footer .right .reserve {
+    color: white;
+    padding-top: 5rem;
+    font-size: 1rem;
+    width: 100%;
+  }
+}
