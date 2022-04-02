@@ -2,7 +2,7 @@
   "name": "easybank",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Abiodun-Code.github.io",
+  "homepage": "https://Abiodun-code.github.io/easybank/",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.2",
